@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#efefef"
+    android:orientation="vertical"
+    tools:context="com.duke.xlws.MainActivity">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@color/colorPrimary">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="心电图"
+            android:textColor="#fff"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <com.duke.xlws.heart.HeartGridView
+            android:id="@+id/heart_grid_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <com.duke.xlws.heart.HeartRateView
+            android:id="@+id/heart_rate_view"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_centerInParent="true" />
+
+
+        <com.duke.xlws.heart.HeartAllRateView
+            android:id="@+id/heart_rate_all_view"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@+id/heart_rate_view"
+            android:layout_marginTop="5dp" />
+    </RelativeLayout>
+
+</LinearLayout>

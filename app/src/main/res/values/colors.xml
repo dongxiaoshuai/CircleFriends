@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+
+    <color name="fc_name_color">#586c95</color>
+    <color name="fc_content_color">#1d1d1d</color>
+    <color name="fc_hd_color">#f3f3f5</color>
+    <color name="fc_divider_line_color">#e5e6e7</color>
+</resources>
